@@ -1,0 +1,43 @@
+/*!
+  * Item: Kitzu
+  * Description: Personal Portfolio Template
+  * Author/Developer: Exill
+  * Author/Developer URL: https://themeforest.net/user/exill
+  * Version: v2.0.0
+  * License: Themeforest Standard Licenses: https://themeforest.net/licenses
+  */
+  .work-place {
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+}
+
+.review-client .media {
+    gap: 10px;
+}
+
+.work-place img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.profile-pic {
+  height: 316px;
+  width: 300px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.profile-pic img {
+  width: 100% !important;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+}
+@media (max-width: 767px) {
+  .profile-pic img {
+    width: 100% !important;
+    height: 100% !important; /* Puri viewport height */
+    border-radius: 0;
+}
+}
