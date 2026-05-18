@@ -51,6 +51,15 @@
     color: #fff;
     font-size: 15px;
 }
+
+.sub_projects .row {
+    row-gap: 30px;
+}
+
+.service-image{
+    border: 4px solid #fff;
+}
+
 .sub_projects img:hover {
     transform: translateY(-20px);
 }
